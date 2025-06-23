@@ -1,0 +1,25 @@
+# Nmap 7.97 scan initiated Mon Jun 23 15:51:02 2025 as: nmap -sS -oN scan_results.txt 192.168.152.0/24
+Nmap scan report for 192.168.152.1
+Host is up (0.012s latency).
+All 1000 scanned ports on 192.168.152.1 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: EA:AD:2B:81:E6:D7 (Unknown)
+
+Nmap scan report for 192.168.152.226
+Host is up (0.033s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT   STATE SERVICE
+53/tcp open  domain
+MAC Address: 1E:6E:2D:62:A8:2F (Unknown)
+
+Nmap scan report for 192.168.152.26
+Host is up (0.00026s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+2869/tcp open  icslap
+7070/tcp open  realserver
+
+# Nmap done at Mon Jun 23 15:53:15 2025 -- 256 IP addresses (3 hosts up) scanned in 132.64 seconds
